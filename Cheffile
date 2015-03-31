@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'oh-my-zsh', :git => 'git://github.com/shingara/oh-my-zsh-chef.git'
+
+cookbook 'sprout-mysql',
+  :github => 'pivotal-sprout/sprout-mysql'
+  
+cookbook 'sprout-rbenv',
+  :github => 'pivotal-sprout/sprout-rbenv'
+ 
+cookbook 'sprout-ruby',
+  :github => 'pivotal-sprout/sprout-ruby'  
+
+cookbook 'sprout-git',
+  :github => 'pivotal-sprout/sprout-git'
+
+cookbook 'sprout-base',
+  :github => 'pivotal-sprout/sprout-base'
+
+cookbook 'sprout-osx-apps',
+  :github => 'pivotal-sprout/sprout-osx-apps'
+
+cookbook 'sprout-osx-settings',
+  :github => 'pivotal-sprout/sprout-osx-settings'
+
+cookbook 'osx',
+  :github => 'pivotal-sprout/osx'
+
+cookbook 'sprout-homebrew',
+  :github => 'pivotal-sprout/sprout-homebrew'
+
+cookbook 'sprout-terminal',
+  :github => 'pivotal-sprout/sprout-terminal'
+
+cookbook 'sprout-jetbrains-editors',
+  :github => 'pivotal-sprout/sprout-jetbrains-editors' 
+
+cookbook 'sprout-postgresql',
+  :github => 'pivotal-sprout/sprout-postgresql'
+
+cookbook 'sprout-ssh',
+  :github => 'pivotal-sprout/sprout-ssh'
+
+cookbook 'sprout-redis',
+  :github => 'pivotal-sprout/sprout-redis'
